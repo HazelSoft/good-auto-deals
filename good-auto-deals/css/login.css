@@ -14,3 +14,50 @@ flex: 1;
 height: 1px;
 background: #eee;
 }
+
+.login-btns{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: #28A7B8 ;
+    border: hidden;
+    margin-bottom: 1rem;
+    border-radius: 0;
+    max-width: 400px !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.login-with-socials a {
+    text-decoration: none !important;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.google-icon {
+    width: 30px !important;
+}
+
+.facebook-icon {
+    width: 40px !important;
+}
+
+.login-form .form-control::placeholder {
+    color: #6c757d !important;
+    font-size: 15px !important;
+}
+
+.login-form .form-control {
+    border-radius: 0 !important;
+    border: hidden !important;
+    background-color: #EEEEEE;
+    color: #707070 !important;
+    font-size: 15px !important;
+    padding-bottom: 1rem !important;
+}
+
+.forgot-link{
+    text-decoration: underline;
+    color:  #28A7B8 !important;
+}
