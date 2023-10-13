@@ -1,0 +1,14 @@
+.insurance-logos{
+    max-width: 220px;
+}
+
+.custom-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.custom-list li::before {
+    content: "\2013"; /* Unicode for em dash (–) */
+    margin-right: 0.5em;
+    color: #28A7B8 !important;
+}

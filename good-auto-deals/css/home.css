@@ -1,0 +1,242 @@
+.ms-6 {
+    padding-left: 6.5% !important;
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #016876 !important;
+}
+
+.navbar-display{
+    display: -webkit-box !important;
+}
+.nav-link{
+    color:black !important;
+    margin-left: 24px !important;
+    margin-right: 24px !important;
+    font-size: 1rem !important;
+    border-bottom: 2px solid transparent; 
+}
+.nav-link:focus, .nav-link:hover{
+    color: #016876 !important;
+    border-bottom: 2px solid #FFA000;
+}
+.btn-outline-warning {
+    --bs-btn-color: #ffc107;
+    --bs-btn-border-color: #016876;
+    --bs-btn-hover-color: #ffc107;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: #016876;
+    --bs-btn-focus-shadow-rgb: 255,193,7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #ffc107;
+    --bs-btn-active-border-color: #ffc107;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-gradient: none;
+}
+.btn {
+    font-size: 0.75rem !important;
+    font-weight: 800 !important;
+    border-radius:50px;
+    /*padding: 20px;*/
+    padding: 15px;
+    height: 3rem;
+    border-color: #016876; 
+}
+
+.navbar-expand-lg .navbar-collapse {
+    height: 90px;
+    justify-content: end;
+    align-items: end;
+}
+
+.collapse.show {
+    height: auto !important;
+}
+
+.pl-20{
+    padding-left: 20px !important;
+}
+
+.p-20{
+    padding: 20px !important;
+}
+
+.field-border{
+    border-top-style: none !important;
+    border-left-style: none !important;
+    border-right-style: none !important;
+    outline: none !important;
+}
+
+.ptb-10{
+    padding-top: 10px !important;
+    padding-bottom: 7px !important;
+}
+
+.form-btn {
+    font-size: 0.75rem !important;
+    border-radius:50px;
+    padding: 15px;
+    border-color: #28a7b8; 
+    height: 2.5rem !important;
+    background-color: white;
+}
+
+.form-btn-search {
+    font-size: 0.75rem !important;
+    border-radius:50px;
+    padding: 15px;
+    height: 2.5rem !important;
+    border-color: #28a7b8;
+    background-color: #28a7b8;
+}
+
+.view-car-btn {
+    font-size: 0.75rem !important;
+    border-radius:50px;
+    padding: 15px;
+    height: 2.25rem !important;
+    background-color: #28a7b8;
+}
+
+.brdr-none{
+    border: none !important;
+}
+
+.clr-white{
+    color: white !important;
+}
+
+.clr-light-grey{
+    color: #EEEEEE !important;
+}
+
+.underline-text{
+    text-decoration: underline !important;
+}
+
+.clr-black{
+    color: black !important;
+}
+
+.form-border{
+    border: 1px solid #28a7b8; 
+    border-radius: 5px;
+}
+
+.pointer-events-none{
+    pointer-events: none;
+}
+
+.height-400{
+    height: 400px !important;
+    object-fit: cover;
+}
+
+.brdr-hidden{
+    border: hidden !important;
+}
+
+.page-link:hover {
+    text-decoration: none;
+    background-color: #28a7b8 !important;
+    border-radius: 5px !important;
+}
+
+.page-link:focus {
+    z-index: 2;
+    outline: 0;
+    box-shadow:none !important;
+    background-color: #28a7b8 !important;
+    border-radius: 5px !important;
+}
+
+.page-link{
+    font-size: 10px !important;
+}
+
+.font-size-14{
+    font-size: 14px !important;
+    color: #000;
+}
+
+.w-auto{
+    width: auto !important;
+}
+
+.font-size-12{
+    font-size: 12px !important;
+    color: #000;
+}
+
+.font-size-8{
+    font-size: 8px !important;
+    color: #000;
+}
+
+.font-size-13{
+    font-size: 13px !important;
+    color: #28a7b8;
+}
+.font-size-9{
+    font-size: 9px !important;
+    color: #989898;
+}
+
+.font-size-9-black{
+    font-size: 9px !important;
+    color: black;
+}
+
+.theme-color{
+    color: #0B6774;
+}
+
+.card-background{
+    background-color: #EEFDFF;
+}
+
+.card-heading-style{
+    color: #033F47;
+    font-size: 13px;
+}
+
+.card-subhead-style{
+    font-size: 11px;
+}
+
+.card-p-style{
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.footer-back{
+    background-color: #D6E2FF;
+}
+
+.back-clr-white{
+    background-color: white;
+}
+
+.back-clr-grey{
+    background-color: #EEEEEE;
+}
+
+.mx-n15{
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+
+.color-dark-theme{
+    color: #033F47 !important;
+}
+
+.font-size-26{   
+    font-size: clamp(14px, 1.5vw, 26px) !important;
+}

@@ -1,0 +1,27 @@
+.calcualtor-sub-head{
+    font-size: 25px !important;
+    color: grey;
+    font-weight: 200;
+}
+
+.calculator .form-control::placeholder {
+    text-decoration: underline;
+    font-style: italic; 
+}
+
+.calculator .form-control {
+    border-radius: 0 !important;
+    font-style: italic;
+}
+
+.finance-brokers-logos{
+    max-width: 75px;
+}
+
+h6.bullet::before {
+    content: '\2022'; /* Unicode character for a bullet point */
+    display: inline-block;
+    margin-right: 8px; 
+    color: #28A7B8 !important;
+    font-size: 22px !important;
+}

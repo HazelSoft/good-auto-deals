@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./../css/home.css" />
+    <link rel="stylesheet" href="./../css/aboutUs.css" />
+    <link rel="stylesheet" href="./../css/carEvaluation.css" />
+    <link rel="stylesheet" href="./../css/carFinance.css" />
+    <title>Good Auto Deals</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <nav class="navbar navbar-display navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+              <img src="./../assets/GAD-Logo-Without-Shadow.png" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              style="position: absolute; right: 15px; top: 25px;"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto"></ul>
+      
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active pr-0" aria-current="page" style="margin-right: 0 !important;" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">USED CARDS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">NEW CARS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="AboutUs.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ContactUs.html">CONTACT US</a>
+                </li>
+      
+                <li class="nav-item d-flex align-items-center py-2 pr-2 pl-20">
+                  <button
+                    type="button"
+                    class="btn btn-outline-warning ms-3 me-auto pt-2 pb-2 ps-4 pe-4 d-flex align-items-center"
+                  >
+                    <div class="d-flex justify-content-between" style="width: 80px">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16.384"
+                        height="16.384"
+                        viewBox="0 0 16.384 16.384"
+                      >
+                        <g
+                          id="user_19_"
+                          data-name="user (19)"
+                          transform="translate(0.5 0.5)"
+                        >
+                          <g id="Group_2834" data-name="Group 2834">
+                            <path
+                              id="Path_18910"
+                              data-name="Path 18910"
+                              d="M13.131,9.945a7.662,7.662,0,0,0-2.923-1.833,4.447,4.447,0,1,0-5.032,0A7.7,7.7,0,0,0,0,15.384H1.2a6.49,6.49,0,0,1,12.98,0h1.2A7.642,7.642,0,0,0,13.131,9.945ZM7.692,7.692a3.245,3.245,0,1,1,3.245-3.245A3.249,3.249,0,0,1,7.692,7.692Z"
+                              transform="translate(0)"
+                              fill="#6b1d57"
+                              stroke="#28a7b8"
+                              stroke-width="1"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                      <span class="ms-2">SIGN IN</span>
+                    </div>
+                  </button>
+                </li>
+      
+                <li class="nav-item d-flex align-items-center pl-20">
+                  <button
+                    type="button"
+                    class="btn btn-outline-warning ms-1 me-3 pt-2 pb-2 ps-4 pe-4"
+                    style="width: 110px"
+                  >
+                    SELL CAR
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <nav
+            class="navbar navbar-expand-lg navbar-light d-none justify-content-end d-md-none d-sm-none d-lg-flex d-xl-flex d-xs-none"
+          >
+            <div style="height: auto">
+              <ul class="navbar-nav mr-auto"></ul>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="CarInsurance.html">CAR INSURANCE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="CarFinance.html">CAR FINANCE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="CarEvaluation.html">CAR EVALUATION</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">BLOGS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Dealers.html">DEALERS</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <nav
+            class="navbar navbar-expand-lg navbar-light d-flex justify-content-start d-md-flex d-sm-flex d-lg-none d-xl-none d-xs-flex"
+          >
+            <div style="height: auto" class="col-12 px-0">
+              <ul class="navbar-nav mr-auto"></ul>
+              <ul class="navbar-nav col-12 px-0">
+                <div class="row">
+                  <li class="nav-item col-6 px-0">
+                    <a class="nav-link" href="CarInsurance.html">CAR INSURANCE</a>
+                  </li>
+                  <li class="nav-item col-6 px-0">
+                    <a class="nav-link" href="CarFinance.html">CAR FINANCE</a>
+                  </li>
+                </div>
+                <div class="row">
+                  <li class="nav-item col-6 px-0">
+                    <a class="nav-link" href="CarEvaluation.html">CAR EVALUATION</a>
+                  </li>
+                  <li class="nav-item col-6 px-0">
+                    <a class="nav-link" href="#">BLOGS</a>
+                  </li>
+                </div>
+                <div class="row">
+                  <li class="nav-item col-6 px-0">
+                    <a class="nav-link" href="Dealers.html">DEALERS</a>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </nav>
+    <div class="col-12 d-flex justify-content-center px-0 position-relative">
+        <img src="./../assets/carFinance/Image1.png" class="w-100" />
+        <div class="position-absolute top-left-50 text-center">
+            <h2 class="text-white responsive-text">GOODAUTODEALS</h2>
+            <h2 class="text-white responsive-text text-clr-orange" style="text-align: start;">CAR FINANCE</h2>
+        </div>
+    </div>
+    <div style="background-color: #EEEEEE;">
+        <div class="col-12 d-flex justify-content-start pt-4">
+            <h2 class="theme-heading">CAR FINANCE</h2>
+        </div>
+        <div class="col-12 d-flex justify-content-start">
+            <p class="about-description">Companies are executing it easy to get a car and offering various types of
+                investments to make it more comfortable to get a brand brand-new or used car from any consigned dealer.
+                We are helping our visitors to find the right type of car finance which they can afford to buy their
+                dream car.</p>
+        </div>
+        <div class="col-12 d-flex justify-content-start py-4">
+            <h5 class="text-muted">LEARN ABOUT CAR FINANCE</h5>
+        </div>
+        <div class="container mx-0 col-12">
+            <div class="row back-clr-white">
+                <div class="col-md-4 col-sm-12 border-right text-center my-2">
+                    <h6 class="pt-1 pb-4 text-muted bullet">Personal Loans(PL)</h6>
+                    <p class="text-muted font-italic">It is quite simple to get a loan from a third party and buy the
+                        car you want and pay them back in agreed terms and interest rates.</p>
+                </div>
+                <div class="col-md-4 col-sm-12 border-right text-center my-2">
+                    <h6 class="pt-1 pb-4 text-muted bullet">Personal Loans(PL)</h6>
+                    <p class="text-muted font-italic">It requires a deposit and monthly installments with a secure loan
+                        against the car and you can not own the car until you make a final payment.</p>
+                </div>
+                <div class="col-md-4 col-sm-12 text-center my-2">
+                    <h6 class="pt-1 pb-4 text-muted bullet">Personal Contract Purchase (PCP)</h6>
+                    <p class="text-muted font-italic">Personal Contract Purchase is a type of Hire Purchase with the
+                        smaller monthly installments and you pay a larger amount at the end of the term to own the car
+                        which is typically 3 to 4 years.</p>
+                </div>
+            </div>
+        </div>
+        <!--Calculator-->
+        <div class="container mt-4 py-4 back-clr-white col-12 mx-0">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3 class="font-weight-bold text-muted">FINANCE CALCULATOR</h3>
+                    <p class=" underline-text calcualtor-sub-head">discover your monthly car payment</p>
+                </div>
+            </div>
+            <div class="row mt-4 calculator">
+                <div class="col-md-3 col-sm-6 col-12 mb-3">
+                    <input type="text" class="form-control" placeholder="cash price">
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-3">
+                    <input type="text" class="form-control" placeholder="down payment">
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-3">
+                    <input type="text" class="form-control" placeholder="APR">
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-3">
+                    <input type="text" class="form-control" placeholder="APR">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <h6 class="text-muted">Your Monthly Car Payment is:</h6>
+                    <h4 class=" text-muted">£<span id="monthlyPayment"></span> / month</h4>
+                </div>
+            </div>
+        </div>
+        <!--Best Car Finance Brokers-->
+        <div class="row mx-0">
+            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12  d-flex justify-content-start pt-4">
+                <h2 class="theme-heading">Best Car Finance Brokers In UK</h2>
+            </div>
+            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12  mt-4">
+                <div class="d-flex justify-content-end">
+                    <img src="./../assets/carFinance/Image2.png" alt="Image 1" class="mr-3 finance-brokers-logos">
+                    <img src="./../assets/carFinance/Image3.png" alt="Image 2" class="mr-3 finance-brokers-logos">
+                    <img src="./../assets/carFinance/Image4.png" alt="Image 3" class="finance-brokers-logos">
+                </div>
+            </div>
+        </div>
+        <div class="col-12 d-flex justify-content-start pt-3">
+            <h4 class="text-muted">Match Me Car Finance</h4>
+        </div>
+        <div class="col-12 d-flex justify-content-start pt-1">
+            <p class="text-muted">We are a credit broker, not a lender. We compare multiple lenders to help you find the
+                best rate available from our panel. We receive a fixed fee commission per finance agreement, or we
+                receive a commission based on a percentage of the total amount of finance taken. This will not affect
+                the interest rate offered or the total amount repayable. Our service is completely free to our
+                customers. Representative example: Borrowing £5,000 over 5 years with a representative APR of 27.4%, an
+                annual interest rate of 27.4% (Fixed) and a deposit of £0.00, the monthly payment would be £145.18 per
+                month, with a total cost of credit of £3,710.80 and a total amount payable of £8,710.80.</p>
+        </div>
+        <div class="col-12 d-flex justify-content-start pt-3">
+            <h5 class="clr-light-theme">Steps to follow:</h5>
+        </div>
+        <div class="col-10 d-flex justify-content-start pt-3">
+            <h6 class="text-muted">Get Approved For Finance First</h6>
+        </div>
+        <div class="col-10 d-flex justify-content-start">
+            <p class="text-muted">Apply today and let us match your finance first. Once approved, you have the green
+                light to start your car shopping today. </p>
+        </div>
+        <div class="col-10 d-flex justify-content-start pt-2">
+            <h6 class="text-muted">Find The Car You'd Like</h6>
+        </div>
+        <div class="col-10 d-flex justify-content-start">
+            <p class="text-muted">Now you know you're approved, you can choose your car from any reputable car dealer.
+                Have a search online and let us complete some vehicle checks for you. We can then arrange you a test
+                drive. </p>
+        </div>
+        <div class="col-10 d-flex justify-content-start pt-2">
+            <h6 class="text-muted">Sign And Collect Your Car </h6>
+        </div>
+        <div class="col-10 d-flex justify-content-start">
+            <p class="text-muted">Once the paper work is sorted, the money is paid directly to the dealer and your new
+                car is ready to collect. For some customers buying a car from a dealer will be nearly impossible.
+                therefore we have filled in the gap and can now offer you multiple ways for you to buy a car with
+                finance. </p>
+        </div>
+        <div class="col-10 d-flex w-100 justify-content-start pt-2">
+            <a href="#" class="underline-text clr-light-theme font-italic">Learn More </a>
+        </div>
+        <div class="col-10 d-flex justify-content-start pt-4">
+            <h5 class="text-muted">Carfinance2u </h5>
+        </div>
+        <div class="col-10 d-flex justify-content-start">
+            <p class="text-muted">Huge Range of Lenders We compare loans from our range of top lenders to get you the
+                best deal. We have deals which are unavailable on the open market, so even if you've been refused
+                elsewhere, don't worry, apply now!</p>
+        </div>
+        <div class="col-10 d-flex w-100 justify-content-start pt-2">
+            <a href="#" class="underline-text clr-light-theme font-italic">Learn More </a>
+        </div>
+        <div class="col-10 d-flex justify-content-start pt-4">
+            <h5 class="text-muted">Arnold Clark</h5>
+        </div>
+        <div class="col-10 d-flex justify-content-start">
+            <p class="text-muted">Why choose Arnold Clark for finance?</p>
+        </div>
+        <div class="col-10 d-flex justify-content-start">
+            <p class="text-muted">Finance packages from 24 car manufacturers
+                Competitive finance rates from over 20 providers We offer a range of finance options to suit you Drive
+                away the same day without waiting for funds to clear Simple application process – all you need is your
+                debit/credit card and driving licence</p>
+        </div>
+        <div class="col-10 d-flex w-100 justify-content-start pt-2">
+            <a href="#" class="underline-text clr-light-theme font-italic">Learn More </a>
+        </div>
+
+        <div class="mx-4 d-flex justify-content-center px-0 pt-3">
+            <img src="./../assets/carFinance/Image5.png" class="w-100" />
+        </div>
+        <!-- Latest Vertified Cars-->
+        <div class="container mx-0 col-12 py-4">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+                    <div class="card" style="position: relative">
+                        <img class="card-img-top p-1" src="./../assets/latest certified cars/Car1.png"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-6 pr-0">
+                                        <h5 class="card-title font-size-14">
+                                            Toyota Camry 2.5 L Special Edition 2019
+                                        </h5>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row mx-0">
+                                            <img src="./../assets/car-icon.png" alt="Card image cap" />
+                                            <img class="px-1" src="./../assets/star-icon.png" alt="Card image cap" />
+                                            <img class="px-1" src="./../assets/money-icon.png" alt="Card image cap" />
+                                        </div>
+                                        <h5 class="card-title font-size-20 clr-light-theme">23,911 £</h5>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/engine-icon.png" alt="Icon" class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Engine</p>
+                                                <p class="card-text font-size-9-black">2.5L</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/speedometer-icon.png" alt="Icon"
+                                                    class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Mileage</p>
+                                                <p class="card-text font-size-9-black">
+                                                    125,000 miles
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/fuel-icon.png" alt="Icon" class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Fuel Type</p>
+                                                <p class="card-text font-size-9-black">Petrol</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/transmission-icon.png" alt="Icon"
+                                                    class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Transmission</p>
+                                                <p class="card-text font-size-9-black">Automatic</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button"
+                                class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
+                                style="position: absolute; bottom: -15px; left: 25%">
+                                <span class="clr-white">View Car</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more cards as needed -->
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+                    <div class="card" style="position: relative">
+                        <img class="card-img-top p-1" src="./../assets/latest certified cars/Car2.png"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-6 pr-0">
+                                        <h5 class="card-title font-size-14">
+                                            Toyota Camry 2.5 L Special Edition 2019
+                                        </h5>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row mx-0">
+                                            <img src="./../assets/car-icon.png" alt="Card image cap" />
+                                            <img class="px-1" src="./../assets/star-icon.png" alt="Card image cap" />
+                                            <img class="px-1" src="./../assets/money-icon.png" alt="Card image cap" />
+                                        </div>
+                                        <h5 class="card-title font-size-20 clr-light-theme">23,911 £</h5>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/engine-icon.png" alt="Icon" class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Engine</p>
+                                                <p class="card-text font-size-9-black">2.5L</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/speedometer-icon.png" alt="Icon"
+                                                    class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Mileage</p>
+                                                <p class="card-text font-size-9-black">
+                                                    125,000 miles
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/fuel-icon.png" alt="Icon" class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Fuel Type</p>
+                                                <p class="card-text font-size-9-black">Petrol</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/transmission-icon.png" alt="Icon"
+                                                    class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Transmission</p>
+                                                <p class="card-text font-size-9-black">Automatic</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button"
+                                class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
+                                style="position: absolute; bottom: -15px; left: 25%">
+                                <span class="clr-white">View Car</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more cards as needed -->
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+                    <div class="card" style="position: relative">
+                        <img class="card-img-top p-1" src="./../assets/latest certified cars/Car3.png"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-6 pr-0">
+                                        <h5 class="card-title font-size-14">
+                                            Toyota Camry 2.5 L Special Edition 2019
+                                        </h5>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row mx-0">
+                                            <img src="./../assets/car-icon.png" alt="Card image cap" />
+                                            <img class="px-1" src="./../assets/star-icon.png" alt="Card image cap" />
+                                            <img class="px-1" src="./../assets/money-icon.png" alt="Card image cap" />
+                                        </div>
+                                        <h5 class="card-title font-size-20 clr-light-theme">23,911 £</h5>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/engine-icon.png" alt="Icon" class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Engine</p>
+                                                <p class="card-text font-size-9-black">2.5L</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/speedometer-icon.png" alt="Icon"
+                                                    class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Mileage</p>
+                                                <p class="card-text font-size-9-black">
+                                                    125,000 miles
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/fuel-icon.png" alt="Icon" class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Fuel Type</p>
+                                                <p class="card-text font-size-9-black">Petrol</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/transmission-icon.png" alt="Icon"
+                                                    class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Transmission</p>
+                                                <p class="card-text font-size-9-black">Automatic</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button"
+                                class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
+                                style="position: absolute; bottom: -15px; left: 25%">
+                                <span class="clr-white">View Car</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more cards as needed -->
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+                    <div class="card" style="position: relative">
+                        <img class="card-img-top p-1" src="./../assets/latest certified cars/Car4.png"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-6 pr-0">
+                                        <h5 class="card-title font-size-14">
+                                            Toyota Camry 2.5 L Special Edition 2019
+                                        </h5>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row mx-0">
+                                            <img src="./../assets/car-icon.png" alt="Card image cap" />
+                                            <img class="px-1" src="./../assets/star-icon.png" alt="Card image cap" />
+                                            <img class="px-1" src="./../assets/money-icon.png" alt="Card image cap" />
+                                        </div>
+                                        <h5 class="card-title font-size-20 clr-light-theme">23,911 £</h5>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/engine-icon.png" alt="Icon" class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Engine</p>
+                                                <p class="card-text font-size-9-black">2.5L</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/speedometer-icon.png" alt="Icon"
+                                                    class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Mileage</p>
+                                                <p class="card-text font-size-9-black">
+                                                    125,000 miles
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/fuel-icon.png" alt="Icon" class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Fuel Type</p>
+                                                <p class="card-text font-size-9-black">Petrol</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <div class="row">
+                                            <div class="col-4 pr-0">
+                                                <img src="./../assets/transmission-icon.png" alt="Icon"
+                                                    class="img-fluid" />
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <p class="card-text font-size-9 mb-0">Transmission</p>
+                                                <p class="card-text font-size-9-black">Automatic</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button"
+                                class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
+                                style="position: absolute; bottom: -15px; left: 25%">
+                                <span class="clr-white">View Car</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Third Part Add-->
+        <div class="col-12 d-flex justify-content-center my-4">
+            <div class="col-10 d-flex justify-content-center mt-4">
+                <img src="./../assets/aboutUs/Image3.png" class="w-100" />
+            </div>
+        </div>
+        <div class="col-12 container mx-0 back-clr-white py-4">
+            <div class="row">
+                <!-- Popular Second Hand Cars Section -->
+                <div class="col-md-6">
+                    <h6 class="clr-light-theme">Popular second hand cars!</h6>
+                    <p class="font-14">Want to know the most popular used car models searched on <a
+                            href="https://www.goodautodeals.com" class="clr-light-theme"
+                            target="_blank">goodautodeals.com</a>?</p>
+                    <p class="font-14">Click on the following links to see our most popular models as searched by you…
+                    </p>
+                    <div class="container px-0">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="car-list">
+                                    <ul>
+                                        <li>Ford Fiesta</li>
+                                        <li>Ford Focus</li>
+                                        <li>Vauxhall Corsa</li>
+                                        <li>Volkswagen Golf</li>
+                                        <li>Nissan Qashqai</li>
+                                        <li>Vauxhall Astra</li>
+                                        <li>BMW 3 Series</li>
+                                        <li>Fiat 500</li>
+                                        <li>Volkswagen Polo</li>
+                                        <li>Audi A3</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="car-list">
+                                    <ul>
+                                        <li>Mercedes-Benz A Class</li>
+                                        <li>MINI Hatch</li>
+                                        <li>BMW 1 Series</li>
+                                        <li>Mercedes-Benz C Class</li>
+                                        <li>Renault Clio</li>
+                                        <li>Audi A1</li>
+                                        <li>Nissan Juke</li>
+                                        <li>Ford Kuga</li>
+                                        <li>Peugeot 208</li>
+                                        <li>Audi A4</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Top Used Car Manufacturers Section -->
+                <div class="col-md-6">
+                    <h6 class="clr-light-theme">Top used car manufacturers</h6>
+                    <p class="font-14">Looking for a specific manufacturer?</p>
+                    <p class="font-14">We have them all. Click on the following links to see our most popular
+                        manufacturer pages as searched for by you...</p>
+
+                    <div class="container px-0">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="car-list">
+                                    <ul>
+                                        <li>Ford</li>
+                                        <li>Vauxhall</li>
+                                        <li>Volkswagen</li>
+                                        <li>Audi</li>
+                                        <li>BMW</li>
+                                        <li>Mercedes-Benz</li>
+                                        <li>Nissan</li>
+                                        <li>Peugeot</li>
+                                        <li>Land Rover</li>
+                                        <li>Toyota</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="car-list">
+                                    <ul>
+                                        <li>Renault</li>
+                                        <li>Citroen</li>
+                                        <li>Kia</li>
+                                        <li>Hyundai</li>
+                                        <li>Skoda</li>
+                                        <li>MINI</li>
+                                        <li>Fiat</li>
+                                        <li>SEAT</li>
+                                        <li>Honda</li>
+                                        <li>View all car manufacturers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+         <!-- Footer -->
+         <footer class="text-center text-lg-start footer-back text-muted col-12">
+            <section
+              class="d-flex justify-content-center justify-content-lg-between pt-4 px-0"
+            >
+              <!-- Left -->
+              <div
+                class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-lg-block"
+              >
+                <!-- Content for larger screens -->
+              </div>
+              <!-- Left -->
+              <!-- Right -->
+              <div class="row col-10 d-flex justify-content-end flex-wrap">
+                <div class="col-12 col-md-6 col-lg-1 mb-4">
+                  <a href="AboutUs.html" class="me-4 text-reset">
+                    <h6 class="text-uppercase fw-bold mt-4 font-size-12">
+                      ABOUT US
+                    </h6>
+                  </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-1 mb-4">
+                  <a href="ContactUs.html" class="me-4 text-reset">
+                    <h6 class="text-uppercase fw-bold mt-4 font-size-12">
+                      CONTACT US
+                    </h6>
+                  </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 mb-4">
+                  <a href="" class="me-4 text-reset">
+                    <h6 class="text-uppercase fw-bold mt-4 font-size-12">
+                      ADVERTISE WITH US
+                    </h6>
+                  </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 mb-4">
+                  <a href="" class="me-4 text-reset">
+                    <h6 class="text-uppercase fw-bold mt-4 font-size-12">
+                      TERMS AND CONDITIONS
+                    </h6>
+                  </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 mb-4">
+                  <a href="" class="me-4 text-reset">
+                    <h6 class="text-uppercase fw-bold mt-4 font-size-12">
+                      PRIVACY POLICY
+                    </h6>
+                  </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-1 mb-4">
+                  <a href="" class="me-4 text-reset">
+                    <h6 class="text-uppercase fw-bold mt-4 font-size-12">FAQS</h6>
+                  </a>
+                </div>
+                <div class="col-12 col-md-12 col-lg-3 mb-4">
+                  <a href="" class="me-4 text-reset">
+                    <h6 class="text-uppercase fw-bold mt-4 font-size-12">
+                      QUESTIONS?
+                      <i class="underline-text" style="color: #6C46B9">SUPPORT@GOODAUTODEALS.COM</i>
+                    </h6>
+                  </a>
+                </div>
+              </div>
+    
+              <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+    
+            <!-- Section: Links  -->
+            <section class="">
+              <div class="container text-center text-md-start mt-5 mx-0 col-12">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <img src="./../assets/GAD-Logo-Without-Shadow.png" />
+                  </div>
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <a href="#">
+                    <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                      NEW CARS
+                    </h6>
+                  </a>
+                  <a href="#">
+                    <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                      USED CARS
+                    </h6>
+                  </a>
+                  <a href="#">
+                    <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                      SELL MY CAR
+                    </h6>
+                  </a>
+                  </div>
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <a href="CarEvaluation.html">
+                      <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                        CAR EVALUATION
+                      </h6>
+                    </a>
+                    <a href="CarInsurance.html">
+                    <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                      CAR INSURANCE
+                    </h6>
+                  </a>
+                  <a href="CarFinance.html">
+                    <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                      CAR FINANCE
+                    </h6>
+                  </a>
+                  </div>
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <a href="#">
+                    <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                      SEARCH DEALERS
+                    </h6>
+                  </a>
+                  <a href="#">
+                    <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                      BECOME A DEALER
+                    </h6>
+                  </a>
+                  <a href="#">
+                    <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                      ADVERTISE PACKAGES
+                    </h6>
+                  </a>
+                  </div>
+    
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 w-auto">
+                    <div class="row mb-2">
+                      <div class="col-6">
+                        <img src="./../assets/Asset 2.png" class="w-100" />
+                      </div>
+    
+                      <div class="col-6 pl-0">
+                        <p class="font-size-14">goodautodealsuk</p>
+    
+                        <p class="font-size-14">goodautodeals</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 pr-0 pl-4 d-flex justify-content-center">
+                    <div class="col-8 ">
+                    <img
+                      src="./../assets/App-Store-and-Google-Play-badges.png"
+                      class="w-100"
+                    />
+                  </div>
+                  </div>
+                </div>
+                <!-- Grid row -->
+              </div>
+            </section>
+            <!-- Section: Links  -->
+            <!-- Copyright -->
+            <div
+              class="d-flex p-4 mx-n15"
+              style="
+                background-color: rgba(0, 0, 0, 0.05);
+                font-size: 9px;
+                color: #28a7b8;
+              "
+            >
+              2021 Ecogenius limited. All rights reserved. Office Address: 34
+              Cliveland Street, Birmingham, B19 3SH
+            </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- Footer -->
+    </div>
+    </div>
+</body>
+</html>

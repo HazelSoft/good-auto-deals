@@ -1,0 +1,72 @@
+.search-dealer-form{
+    border: 1px solid #666666;
+    border-radius: 5%;
+}
+
+.search-form .form-control::placeholder {
+    font-style: italic; 
+    color: #C7C7C7 !important;
+    font-size: 14px;
+}
+
+.search-form .form-control {
+    border-radius: 0.5rem !important;
+    font-style: italic;
+    border: 1px solid #666666;
+}
+
+.search-btn{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #666666;
+    background-color: white ;
+    border: 1px solid #666666;
+    border-radius: 0.5rem;
+}
+
+.promo-code-form{
+    border: hidden !important;
+    border-radius: 5%;
+    background-color: rgba(40, 167, 184, 0.8);
+}
+
+.premium-btn{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #28A7B8;
+    background-color: white ;
+    border: hidden;
+    border-radius: 0.25rem;
+}
+
+.orange-text {
+    color: orange !important;
+}
+
+.dealer-cards{
+    background-color: #F5F5F5;
+    border-radius: 1rem;
+}
+
+/* Font color and size for dealer card */
+.dealer-cards h4 {
+    color: #28A7B8; 
+    margin-bottom: 0;
+    font-size: clamp(16px, 2vw, 20px) !important;
+}
+
+.dealer-cards p {
+    color: #28A7B8; 
+    font-weight: 500;
+    font-size: clamp(14px, 2vw, 16px) !important;
+}
+
+.dealer-cards h6 {
+    color: #666666; 
+    font-weight: 400 !important;
+    font-size: clamp(16px, 2vw, 20px) !important;
+}

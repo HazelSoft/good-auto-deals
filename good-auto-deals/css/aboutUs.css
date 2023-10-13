@@ -1,0 +1,41 @@
+.about-headings{
+   color:  #28A7B8 !important;
+   font-size: 34px !important;
+}
+
+.about-description{
+    color:  #666666 !important;
+    font-size: 18px !important;
+ }
+
+.font-14{
+    font-size: 14px;
+}
+
+.car-list ul li {
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.car-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.clr-light-theme{
+    color:  #28A7B8 !important;
+}
+
+.top-left-50{
+    top: 30%;
+    left: 50px;
+}
+
+.responsive-text{
+    font-size: clamp(9px, 2.5vw, 25px) !important;
+}
+
+.text-clr-orange{
+    color: #FFA000 !important;
+}
