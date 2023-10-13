@@ -1,0 +1,70 @@
+.font-size-20{
+    font-size: 20px;
+}
+
+.custom-border {
+    border-left: 1px solid #000; 
+    height: 100%;
+    margin-top: 20px; 
+  }
+
+  .pt-40{
+    padding-top: 40px !important;
+  }
+
+  .custom-border-color{
+    border: 1px solid #28A7B8 !important;;
+  }
+
+.hide-border{
+    border: hidden !important;
+}
+
+.pb-40{
+    padding-bottom: 40px !important;
+  }
+
+.faq{
+    font-size: 20px;
+    color:  #28A7B8 !important;
+}
+
+.p-30{
+    padding: 30px !important;
+}
+
+ul.list-unstyled li {
+    font-size: clamp(12px, 2vw, 14px);
+  }
+
+.w-15{
+    width: 15%;
+}
+
+.w-85{
+    width: 85%;
+}
+
+.faq-h6{
+    font-size: clamp(10px, 1.5vw, 15px) !important;
+}
+
+.form-on-img{
+    top: 30px;
+    left: 30px;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.form-on-img .form-control {
+    background-color: #ced4da !important;
+    font-style: italic; 
+}
+
+.form-on-img a {
+    font-style: italic;
+}
+
+.theme-heading{
+    font-size: clamp(25px, 2.5vw, 32px) !important;
+    color:  #28A7B8 !important;
+}

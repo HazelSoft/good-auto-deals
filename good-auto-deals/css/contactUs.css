@@ -1,0 +1,23 @@
+.contactUs .form-control::placeholder {
+    font-style: italic; 
+    color: #DBDBDB !important;
+}
+
+.contactUs .form-control {
+    border-radius: 0 !important;
+    font-style: italic;
+}
+
+.submit-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: #28A7B8 ;
+    border: hidden;
+}
+
+.get-in-touch-border{
+    border-bottom: 1px solid #6c757d !important
+}
