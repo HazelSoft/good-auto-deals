@@ -1,0 +1,119 @@
+.search-ads-form{
+    border: 1px solid #666666;
+}
+
+.ads-search-form .form-control::placeholder {
+    color: #8F8C8C !important;
+    font-size: 14px;
+}
+
+.ads-search-form .form-control {
+    border: 2px solid #E4E4E4;
+    background-color: transparent;
+}
+
+.car-icon-size {
+    width: 35px;
+}
+
+.ads-search-form span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #28A7B8;
+}
+
+.ads-form-heading{
+    font-weight: bold;
+    font-size: 16px;
+    color: #28A7B8;
+}
+
+.menu-back{
+    background-color: #EEEEEE !important;
+}
+
+.no-outline{
+    outline: none !important;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.ads-form-subheading{
+    font-weight: 500;
+    font-size: 16px;
+    color: #28A7B8;
+}
+
+.font-weight-500{
+    font-weight: 500 !important;
+}
+
+.border-radius-0{
+    border-radius: 0 !important;
+}
+
+.back-transparent{
+    background-color: transparent !important;
+} 
+
+.row-items{
+    font-size: 8px !important;
+    color: #989898;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-text{
+    font-size: 10px !important;
+    color: #989898;   
+}
+
+.more-details-btn{
+    border: 1px solid #28A7B8;
+    color: #28A7B8;
+    font-size: 10px;
+}
+
+.border-theme{
+    border-top: 1px solid #28A7B8 !important;
+}
+
+.theme-right-border{
+    border-right: 1px solid #28A7B8;
+}
+
+.grey-border{
+    border: 4px solid #E4E4E4 !important;
+}
+
+.camera-pos{
+    position: absolute; 
+    left: 1%; 
+    top: 10%; 
+    transform: translateY(-50%); max-width: 50px;
+}
+
+.golden-star-pos{
+    position: absolute; 
+    left: 21%; 
+    top: 8%; 
+    transform: translateY(-50%); max-width: 50px;
+}
+
+.theme-border-6{
+    border-top: 6px solid #28A7B8;
+    margin-bottom: 2rem !important;
+}
+
+.box-shadow-3{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.theme-border-end{
+    border-top: 6px solid #28A7B8;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}

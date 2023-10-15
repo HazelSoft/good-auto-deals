@@ -14,7 +14,10 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./../css/home.css" />
     <title>Good Auto Deals</title>
   </head>
@@ -34,7 +37,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <nav class="navbar navbar-display navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-display navbar-expand-xl navbar-light bg-light">
       <a class="navbar-brand" href="#">
         <img src="./../assets/GAD-Logo-Without-Shadow.png" />
       </a>
@@ -46,7 +49,7 @@
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
-        style="position: absolute; right: 15px; top: 25px;"
+        style="position: absolute; right: 15px; top: 25px"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -56,10 +59,12 @@
 
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active pr-0" aria-current="page" style="margin-right: 0 !important;" href="index.html">HOME</a>
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >HOME</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">USED CARDS</a>
+            <a class="nav-link" href="UsedCars.html">USED CARDS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">NEW CARS</a>
@@ -75,8 +80,8 @@
             <button
               type="button"
               class="btn btn-outline-warning ms-3 me-auto pt-2 pb-2 ps-4 pe-4 d-flex align-items-center"
-              onclick="window.location.href = 'Login.html';"
-              >
+              onclick="window.location.href = 'SignUp.html';"
+            >
               <div class="d-flex justify-content-between" style="width: 80px">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -111,6 +116,7 @@
               type="button"
               class="btn btn-outline-warning ms-1 me-3 pt-2 pb-2 ps-4 pe-4"
               style="width: 110px"
+              onclick="window.location.href = 'SellCar.html';"
             >
               SELL CAR
             </button>
@@ -172,858 +178,926 @@
         </ul>
       </div>
     </nav>
-    <div style="background-color: #EEEEEE;">
-    <div class="col-12 d-flex justify-content-center">
-      <img src="./../assets/Mask Group 2.png" class="w-100" />
-    </div>
-    <div class="row mx-0 pt-4">
-      <div class="col-lg-4 col-md-12 col-sm-12 pb-2">
-        <form class="p-20 form-border back-clr-white">
-          <!-- Dropdown 1 -->
-          <select
-            id="dropdown1"
-            name="dropdown1"
-            class="w-100 field-border ptb-10"
-          >
-          <option value="" disabled selected>Make</option>
-            <option value="option1">Make 1</option>
-            <option value="option2">Make 2</option>
-            <option value="option3">Make 3</option>
-          </select>
-          <br />
-
-          <!-- Dropdown 2 -->
-          <select
-            id="dropdown2"
-            name="dropdown2"
-            class="w-100 field-border ptb-10"
-          >
-          <option value="" disabled selected>Model</option>
-            <option value="option1">Model 1</option>
-            <option value="option2">Model 2</option>
-            <option value="option3">Model 3</option>
-          </select>
-          <br />
-          <!-- Dropdown 3 -->
-          <select
-            id="dropdown3"
-            name="dropdown3"
-            class="w-100 field-border ptb-10"
-          >
-          <option value="" disabled selected>City</option>
-          <option value="option1">Toronto</option>
-          <option value="option2">Ottawa</option>
-          <option value="option3">London</option>
-          </select>
-          <br />
-          <div class="row">
-            <!-- Dropdown 4 -->
-            <div class="col-6">
-              <select
-                id="dropdown4"
-                name="dropdown4"
-                class="w-100 field-border ptb-10"
-              >
-              <option value="" disabled selected>Min Price</option>
-                <option value="option1">Price 1</option>
-                <option value="option2">Price 2</option>
-                <option value="option3">Price 3</option>
-              </select>
-            </div>
+    <div style="background-color: #eeeeee">
+      <div class="col-12 d-flex justify-content-center">
+        <img src="./../assets/Mask Group 2.png" class="w-100" />
+      </div>
+      <div class="row mx-0 pt-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 pb-2">
+          <form class="p-20 form-border back-clr-white">
+            <!-- Dropdown 1 -->
+            <select
+              id="dropdown1"
+              name="dropdown1"
+              class="w-100 field-border ptb-10"
+            >
+              <option value="" disabled selected>Make</option>
+              <option value="option1">Make 1</option>
+              <option value="option2">Make 2</option>
+              <option value="option3">Make 3</option>
+            </select>
             <br />
 
-            <!-- Dropdown 5 -->
-            <div class="col-6">
-              <select
-                id="dropdown5"
-                name="dropdown5"
-                class="w-100 field-border ptb-10"
-              >
-              <option value="" disabled selected>Max Price</option>
-              <option value="option1">Price 1</option>
-              <option value="option2">Price 2</option>
-              <option value="option3">Price 3</option>
-              </select>
-            </div>
+            <!-- Dropdown 2 -->
+            <select
+              id="dropdown2"
+              name="dropdown2"
+              class="w-100 field-border ptb-10"
+            >
+              <option value="" disabled selected>Model</option>
+              <option value="option1">Model 1</option>
+              <option value="option2">Model 2</option>
+              <option value="option3">Model 3</option>
+            </select>
             <br />
-          </div>
+            <!-- Dropdown 3 -->
+            <select
+              id="dropdown3"
+              name="dropdown3"
+              class="w-100 field-border ptb-10"
+            >
+              <option value="" disabled selected>City</option>
+              <option value="option1">Toronto</option>
+              <option value="option2">Ottawa</option>
+              <option value="option3">London</option>
+            </select>
+            <br />
+            <div class="row">
+              <!-- Dropdown 4 -->
+              <div class="col-6">
+                <select
+                  id="dropdown4"
+                  name="dropdown4"
+                  class="w-100 field-border ptb-10"
+                >
+                  <option value="" disabled selected>Min Price</option>
+                  <option value="option1">Price 1</option>
+                  <option value="option2">Price 2</option>
+                  <option value="option3">Price 3</option>
+                </select>
+              </div>
+              <br />
 
-          <!-- Text field -->
-          <input
-            type="text"
-            id="textfield"
-            name="textfield"
-            class="w-100 field-border ptb-10"
-            placeholder="Postcode"
-          />
-          <br />
-          <!-- Buttons -->
-          <div class="col-12 pt-3">
-            <button
-              type="button"
-              class="form-btn-search ms-3 me-auto pt-2 pb-2 ps-4 pe-4 d-flex align-items-center brdr-none w-100 justify-content-center"
-            >
-              <div class="d-flex justify-content-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  id="Group_2829"
-                  data-name="Group 2829"
-                  width="15.424"
-                  height="15.423"
-                  viewBox="0 0 15.424 15.423"
+              <!-- Dropdown 5 -->
+              <div class="col-6">
+                <select
+                  id="dropdown5"
+                  name="dropdown5"
+                  class="w-100 field-border ptb-10"
                 >
-                  <path
-                    id="Path_18908"
-                    data-name="Path 18908"
-                    d="M6.955,0a6.952,6.952,0,0,1,5.887,10.656l2.128,2.128a1.546,1.546,0,1,1-2.186,2.186l-2.128-2.128A6.955,6.955,0,1,1,6.955,0Zm0,12.366a5.41,5.41,0,1,0-5.41-5.41A5.416,5.416,0,0,0,6.955,12.366Z"
-                    transform="translate(0)"
-                    fill="#fff"
-                  />
-                </svg>
-                <span class="ms-2 pl-2 clr-white pl-20">SEARCH</span>
+                  <option value="" disabled selected>Max Price</option>
+                  <option value="option1">Price 1</option>
+                  <option value="option2">Price 2</option>
+                  <option value="option3">Price 3</option>
+                </select>
               </div>
-            </button>
-          </div>
-          <div class="col-12 d-flex w-100 justify-content-center pt-3">
-            <a href="#" class="underline-text clr-black"> RESET </a>
-          </div>
-          <div class="col-12 pt-3">
-            <button
-              type="button"
-              class="form-btn ms-1 me-3 pt-2 pb-2 ps-4 pe-4 w-100 justify-content-center"
-            >
-              ADVANCED FILTER
-            </button>
-          </div>
-        </form>
-      </div>
-      <div class="col-lg-8 col-md-12 col-sm-12">
-        <img src="./../assets/ban.png" class="w-100 height-400" />
-      </div>
-      <!--Car logos-->
-      <div
-        class="row col-12 mx-0 d-flex justify-content-center align-items-center"
-      >
-        <div class="col-1">
-          <img src="./../assets/Hyundai-logo.png" class="w-100" />
-        </div>
-        <div class="col-1">
-          <img src="./../assets/Honda-logo.png" class="w-100" />
-        </div>
-        <div class="col-1">
-          <img src="./../assets/audi-logo.png" class="w-100" />
-        </div>
-        <div class="col-1">
-          <img src="./../assets/Jaguar-Logo.png" class="w-100" />
-        </div>
-        <div class="col-1">
-          <img src="./../assets/lexus-logo.png" class="w-100" />
-        </div>
-        <div class="col-1">
-          <img src="./../assets/toyota-logo.png" class="w-100" />
-        </div>
-      </div>
-      <!--Pages navigation-->
-      <div class="col-12 pt-3">
-        <nav aria-label="Page navigation">
-          <ul class="pagination justify-content-center">
-            <li class="page-item">
-              <a
-                class="page-link brdr-hidden clr-black back-clr-grey"
-                href="#"
-                aria-label="Previous"
-              >
-                <span aria-hidden="true">&lt;</span>
-              </a>
-            </li>
-            <li class="page-item pl-20">
-              <a class="page-link brdr-hidden clr-black back-clr-grey" href="#">1</a>
-            </li>
-            <li class="page-item pl-20">
-              <a class="page-link brdr-hidden clr-black back-clr-grey" href="#">2</a>
-            </li>
-            <li class="page-item pl-20">
-              <a class="page-link brdr-hidden clr-black back-clr-grey" href="#">3</a>
-            </li>
-            <li class="page-item pl-20">
-              <a
-                class="page-link brdr-hidden clr-black back-clr-grey"
-                href="#"
-                aria-label="Next"
-              >
-                <span aria-hidden="true">&gt;</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <!-- Latest certified cars -->
-      <div class="container mx-0 col-12 py-4 back-clr-white">
-        <div class="row mb-4">
-          <div class="col-md-6 col-lg-8">
-            <h2 class="theme-color">Latest Certified Cars</h2>
-          </div>
-          <div class="col-md-6 col-lg-4 text-end d-flex justify-content-end">
-            <button
-              type="button"
-              class="col-6 col-md-4 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
-            >
-              <span class="clr-white">View More Cars</span>
-            </button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
-            <div class="card" style="position: relative">
-              <img
-                class="card-img-top p-1"
-                src="./../assets/latest certified cars/Car1.png"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-6 pr-0">
-                      <h5 class="card-title font-size-14">
-                        Toyota Camry 2.5 L Special Edition 2019
-                      </h5>
-                    </div>
-                    <div class="col-6 text-end">
-                      <h5 class="card-title font-size-13">23,911 £</h5>
-                    </div>
-                  </div>
-                  <div class="row mb-3">
-                    <div class="col-6">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/engine-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Engine</p>
-                          <p class="card-text font-size-9-black">2.5L</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 text-end">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/speedometer-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Mileage</p>
-                          <p class="card-text font-size-9-black">
-                            125,000 miles
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/fuel-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Fuel Type</p>
-                          <p class="card-text font-size-9-black">Petrol</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 text-end">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/transmission-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Transmission</p>
-                          <p class="card-text font-size-9-black">Automatic</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button
-                  type="button"
-                  class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
-                  style="position: absolute; bottom: -15px; left: 25%"
-                >
-                  <span class="clr-white">View Car</span>
-                </button>
-              </div>
+              <br />
             </div>
-          </div>
-          <!-- Add more cards as needed -->
-          <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
-            <div class="card" style="position: relative">
-              <img
-                class="card-img-top p-1"
-                src="./../assets/latest certified cars/Car2.png"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-6 pr-0">
-                      <h5 class="card-title font-size-14">
-                        Toyota Camry 2.5 L Special Edition 2019
-                      </h5>
-                    </div>
-                    <div class="col-6 text-end">
-                      <h5 class="card-title font-size-13">23,911 £</h5>
-                    </div>
-                  </div>
-                  <div class="row mb-3">
-                    <div class="col-6">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/engine-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Engine</p>
-                          <p class="card-text font-size-9-black">2.5L</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 text-end">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/speedometer-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Mileage</p>
-                          <p class="card-text font-size-9-black">
-                            125,000 miles
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/fuel-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Fuel Type</p>
-                          <p class="card-text font-size-9-black">Petrol</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 text-end">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/transmission-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Transmission</p>
-                          <p class="card-text font-size-9-black">Automatic</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button
-                  type="button"
-                  class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
-                  style="position: absolute; bottom: -15px; left: 25%"
-                >
-                  <span class="clr-white">View Car</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <!-- Add more cards as needed -->
-          <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
-            <div class="card" style="position: relative">
-              <img
-                class="card-img-top p-1"
-                src="./../assets/latest certified cars/Car3.png"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-6 pr-0">
-                      <h5 class="card-title font-size-14">
-                        Toyota Camry 2.5 L Special Edition 2019
-                      </h5>
-                    </div>
-                    <div class="col-6 text-end">
-                      <h5 class="card-title font-size-13">23,911 £</h5>
-                    </div>
-                  </div>
-                  <div class="row mb-3">
-                    <div class="col-6">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/engine-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Engine</p>
-                          <p class="card-text font-size-9-black">2.5L</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 text-end">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/speedometer-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Mileage</p>
-                          <p class="card-text font-size-9-black">
-                            125,000 miles
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/fuel-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Fuel Type</p>
-                          <p class="card-text font-size-9-black">Petrol</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 text-end">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/transmission-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Transmission</p>
-                          <p class="card-text font-size-9-black">Automatic</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button
-                  type="button"
-                  class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
-                  style="position: absolute; bottom: -15px; left: 25%"
-                >
-                  <span class="clr-white">View Car</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <!-- Add more cards as needed -->
-          <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
-            <div class="card" style="position: relative">
-              <img
-                class="card-img-top p-1"
-                src="./../assets/latest certified cars/Car4.png"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-6 pr-0">
-                      <h5 class="card-title font-size-14">
-                        Toyota Camry 2.5 L Special Edition 2019
-                      </h5>
-                    </div>
-                    <div class="col-6 text-end">
-                      <h5 class="card-title font-size-13">23,911 £</h5>
-                    </div>
-                  </div>
-                  <div class="row mb-3">
-                    <div class="col-6">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/engine-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Engine</p>
-                          <p class="card-text font-size-9-black">2.5L</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 text-end">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/speedometer-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Mileage</p>
-                          <p class="card-text font-size-9-black">
-                            125,000 miles
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/fuel-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Fuel Type</p>
-                          <p class="card-text font-size-9-black">Petrol</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 text-end">
-                      <div class="row">
-                        <div class="col-4 pr-0">
-                          <img
-                            src="./../assets/transmission-icon.png"
-                            alt="Icon"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-8 pl-0">
-                          <p class="card-text font-size-9 mb-0">Transmission</p>
-                          <p class="card-text font-size-9-black">Automatic</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button
-                  type="button"
-                  class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
-                  style="position: absolute; bottom: -15px; left: 25%"
-                >
-                  <span class="clr-white">View Car</span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <!--Why choose us-->
-      <div class="col-12 px-0 d-flex justify-content-center pt-0">
-        <img src="./../assets/why-choose-us2.png" class="w-100" />
-      </div>
-      <!--Read More about us btn-->
-      <div class="col-12 pt-3 d-flex align-items-center justify-content-center">
-        <div class="col-lg-2 col-xl-2 col-md-8 col-sm-8 col-xs-8 pt-3">
-          <button
-            type="button"
-            class="form-btn-search d-flex align-items-center brdr-none w-100 justify-content-center"
-          >
-            <span class="clr-white">READ MORE ABOUT US</span>
-          </button>
+            <!-- Text field -->
+            <input
+              type="text"
+              id="textfield"
+              name="textfield"
+              class="w-100 field-border ptb-10"
+              placeholder="Postcode"
+            />
+            <br />
+            <!-- Buttons -->
+            <div class="col-12 pt-3">
+              <button
+                type="button"
+                class="form-btn-search ms-3 me-auto pt-2 pb-2 ps-4 pe-4 d-flex align-items-center brdr-none w-100 justify-content-center"
+              >
+                <div class="d-flex justify-content-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="Group_2829"
+                    data-name="Group 2829"
+                    width="15.424"
+                    height="15.423"
+                    viewBox="0 0 15.424 15.423"
+                  >
+                    <path
+                      id="Path_18908"
+                      data-name="Path 18908"
+                      d="M6.955,0a6.952,6.952,0,0,1,5.887,10.656l2.128,2.128a1.546,1.546,0,1,1-2.186,2.186l-2.128-2.128A6.955,6.955,0,1,1,6.955,0Zm0,12.366a5.41,5.41,0,1,0-5.41-5.41A5.416,5.416,0,0,0,6.955,12.366Z"
+                      transform="translate(0)"
+                      fill="#fff"
+                    />
+                  </svg>
+                  <span class="ms-2 pl-2 clr-white pl-20">SEARCH</span>
+                </div>
+              </button>
+            </div>
+            <div class="col-12 d-flex w-100 justify-content-center pt-3">
+              <a href="#" class="underline-text clr-black"> RESET </a>
+            </div>
+            <div class="col-12 pt-3">
+              <button
+                type="button"
+                class="form-btn ms-1 me-3 pt-2 pb-2 ps-4 pe-4 w-100 justify-content-center"
+              >
+                ADVANCED FILTER
+              </button>
+            </div>
+          </form>
         </div>
-      </div>
-      <!--News_Reviews_Discussions-->
-      <div class="col-12 d-flex justify-content-center pt-4">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="462"
-          height="43"
-          viewBox="0 0 462 43"
+        <div class="col-lg-8 col-md-12 col-sm-12">
+          <img src="./../assets/ban.png" class="w-100 height-400" />
+        </div>
+        <!--Car logos-->
+        <div
+          class="row col-12 mx-0 d-flex justify-content-center align-items-center"
         >
-          <text
-            id="News_Reviews_Discussions"
-            data-name="News, Reviews &amp; Discussions"
-            transform="translate(0 34)"
-            fill="#0b6774"
-            font-size="32"
-            font-family="OpenSans-Bold, Open Sans"
-            font-weight="700"
+          <div class="col-1">
+            <img src="./../assets/Hyundai-logo.png" class="w-100" />
+          </div>
+          <div class="col-1">
+            <img src="./../assets/Honda-logo.png" class="w-100" />
+          </div>
+          <div class="col-1">
+            <img src="./../assets/audi-logo.png" class="w-100" />
+          </div>
+          <div class="col-1">
+            <img src="./../assets/Jaguar-Logo.png" class="w-100" />
+          </div>
+          <div class="col-1">
+            <img src="./../assets/lexus-logo.png" class="w-100" />
+          </div>
+          <div class="col-1">
+            <img src="./../assets/toyota-logo.png" class="w-100" />
+          </div>
+        </div>
+        <!--Pages navigation-->
+        <div class="col-12 pt-3">
+          <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a
+                  class="page-link brdr-hidden clr-black back-clr-grey"
+                  href="#"
+                  aria-label="Previous"
+                >
+                  <span aria-hidden="true">&lt;</span>
+                </a>
+              </li>
+              <li class="page-item pl-20">
+                <a
+                  class="page-link brdr-hidden clr-black back-clr-grey"
+                  href="#"
+                  >1</a
+                >
+              </li>
+              <li class="page-item pl-20">
+                <a
+                  class="page-link brdr-hidden clr-black back-clr-grey"
+                  href="#"
+                  >2</a
+                >
+              </li>
+              <li class="page-item pl-20">
+                <a
+                  class="page-link brdr-hidden clr-black back-clr-grey"
+                  href="#"
+                  >3</a
+                >
+              </li>
+              <li class="page-item pl-20">
+                <a
+                  class="page-link brdr-hidden clr-black back-clr-grey"
+                  href="#"
+                  aria-label="Next"
+                >
+                  <span aria-hidden="true">&gt;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- Latest certified cars -->
+        <div class="container mx-0 col-12 py-4 back-clr-white">
+          <div class="row mb-4">
+            <div class="col-md-6 col-lg-8">
+              <h2 class="theme-color">Latest Certified Cars</h2>
+            </div>
+            <div class="col-md-6 col-lg-4 text-end d-flex justify-content-end">
+              <button
+                type="button"
+                class="col-6 col-md-4 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
+              >
+                <span class="clr-white">View More Cars</span>
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+              <div class="card" style="position: relative">
+                <img
+                  class="card-img-top p-1"
+                  src="./../assets/latest certified cars/Car1.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-6 pr-0">
+                        <h5 class="card-title font-size-14">
+                          Toyota Camry 2.5 L Special Edition 2019
+                        </h5>
+                      </div>
+                      <div class="col-6 text-end">
+                        <h5 class="card-title font-size-13">23,911 £</h5>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/engine-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Engine</p>
+                            <p class="card-text font-size-9-black">2.5L</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 text-end">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/speedometer-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Mileage</p>
+                            <p class="card-text font-size-9-black">
+                              125,000 miles
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/fuel-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Fuel Type</p>
+                            <p class="card-text font-size-9-black">Petrol</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 text-end">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/transmission-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">
+                              Transmission
+                            </p>
+                            <p class="card-text font-size-9-black">Automatic</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
+                    style="position: absolute; bottom: -15px; left: 25%"
+                  >
+                    <span class="clr-white">View Car</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+              <div class="card" style="position: relative">
+                <img
+                  class="card-img-top p-1"
+                  src="./../assets/latest certified cars/Car2.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-6 pr-0">
+                        <h5 class="card-title font-size-14">
+                          Toyota Camry 2.5 L Special Edition 2019
+                        </h5>
+                      </div>
+                      <div class="col-6 text-end">
+                        <h5 class="card-title font-size-13">23,911 £</h5>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/engine-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Engine</p>
+                            <p class="card-text font-size-9-black">2.5L</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 text-end">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/speedometer-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Mileage</p>
+                            <p class="card-text font-size-9-black">
+                              125,000 miles
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/fuel-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Fuel Type</p>
+                            <p class="card-text font-size-9-black">Petrol</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 text-end">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/transmission-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">
+                              Transmission
+                            </p>
+                            <p class="card-text font-size-9-black">Automatic</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
+                    style="position: absolute; bottom: -15px; left: 25%"
+                  >
+                    <span class="clr-white">View Car</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+              <div class="card" style="position: relative">
+                <img
+                  class="card-img-top p-1"
+                  src="./../assets/latest certified cars/Car3.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-6 pr-0">
+                        <h5 class="card-title font-size-14">
+                          Toyota Camry 2.5 L Special Edition 2019
+                        </h5>
+                      </div>
+                      <div class="col-6 text-end">
+                        <h5 class="card-title font-size-13">23,911 £</h5>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/engine-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Engine</p>
+                            <p class="card-text font-size-9-black">2.5L</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 text-end">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/speedometer-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Mileage</p>
+                            <p class="card-text font-size-9-black">
+                              125,000 miles
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/fuel-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Fuel Type</p>
+                            <p class="card-text font-size-9-black">Petrol</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 text-end">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/transmission-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">
+                              Transmission
+                            </p>
+                            <p class="card-text font-size-9-black">Automatic</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
+                    style="position: absolute; bottom: -15px; left: 25%"
+                  >
+                    <span class="clr-white">View Car</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+              <div class="card" style="position: relative">
+                <img
+                  class="card-img-top p-1"
+                  src="./../assets/latest certified cars/Car4.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-6 pr-0">
+                        <h5 class="card-title font-size-14">
+                          Toyota Camry 2.5 L Special Edition 2019
+                        </h5>
+                      </div>
+                      <div class="col-6 text-end">
+                        <h5 class="card-title font-size-13">23,911 £</h5>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/engine-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Engine</p>
+                            <p class="card-text font-size-9-black">2.5L</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 text-end">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/speedometer-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Mileage</p>
+                            <p class="card-text font-size-9-black">
+                              125,000 miles
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/fuel-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">Fuel Type</p>
+                            <p class="card-text font-size-9-black">Petrol</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 text-end">
+                        <div class="row">
+                          <div class="col-4 pr-0">
+                            <img
+                              src="./../assets/transmission-icon.png"
+                              alt="Icon"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="col-8 pl-0">
+                            <p class="card-text font-size-9 mb-0">
+                              Transmission
+                            </p>
+                            <p class="card-text font-size-9-black">Automatic</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="col-6 view-car-btn d-flex align-items-center brdr-none w-100 justify-content-center"
+                    style="position: absolute; bottom: -15px; left: 25%"
+                  >
+                    <span class="clr-white">View Car</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Why choose us-->
+        <div class="col-12 px-0 d-flex justify-content-center pt-0">
+          <img src="./../assets/why-choose-us2.png" class="w-100" />
+        </div>
+        <!--Read More about us btn-->
+        <div
+          class="col-12 pt-3 d-flex align-items-center justify-content-center"
+        >
+          <div class="col-lg-2 col-xl-2 col-md-8 col-sm-8 col-xs-8 pt-3">
+            <button
+              type="button"
+              class="form-btn-search d-flex align-items-center brdr-none w-100 justify-content-center"
+            >
+              <span class="clr-white">READ MORE ABOUT US</span>
+            </button>
+          </div>
+        </div>
+        <!--News_Reviews_Discussions-->
+        <div class="col-12 d-flex justify-content-center pt-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="462"
+            height="43"
+            viewBox="0 0 462 43"
           >
-            <tspan x="0" y="0">News, Reviews &amp; Discussions</tspan>
-          </text>
-        </svg>
-      </div>
-      <div class="col-12 d-flex justify-content-center pt-4">
-        <img src="./../assets/Mask Group 3.png" class="w-100 p-4 footer-back" />
-      </div>
-      <!--Cars Details Cards-->
-      <div class="container mx-0 col-12 pt-4">
-        <div class="row">
-          <!-- Card 1 -->
-          <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+            <text
+              id="News_Reviews_Discussions"
+              data-name="News, Reviews &amp; Discussions"
+              transform="translate(0 34)"
+              fill="#0b6774"
+              font-size="32"
+              font-family="OpenSans-Bold, Open Sans"
+              font-weight="700"
+            >
+              <tspan x="0" y="0">News, Reviews &amp; Discussions</tspan>
+            </text>
+          </svg>
+        </div>
+        <div class="col-12 d-flex justify-content-center pt-4">
+          <img
+            src="./../assets/Mask Group 3.png"
+            class="w-100 p-4 footer-back"
+          />
+        </div>
+        <!--Cars Details Cards-->
+        <div class="container mx-0 col-12 pt-4">
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
               <div class="card card-background">
-              <img
-                class="card-img-top p-1"
-                src="./../assets/Cars/Car1.png"
-                alt="Card image cap"
-              />
-              <div class="card-body p-0">
-                <div class="text-center mb-2">
-                    <h5 class="card-title card-heading-style p-2" style="background-color: white">
+                <img
+                  class="card-img-top p-1"
+                  src="./../assets/Cars/Car1.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body p-0">
+                  <div class="text-center mb-2">
+                    <h5
+                      class="card-title card-heading-style p-2"
+                      style="background-color: white"
+                    >
                       TOYOTA CAMRY 2021
                     </h5>
-                </div>
-                <div class="mb-2">
-                    <h6 class="card-subtitle mb-2 text-muted card-subhead-style p-2">
+                  </div>
+                  <div class="mb-2">
+                    <h6
+                      class="card-subtitle mb-2 text-muted card-subhead-style p-2"
+                    >
                       The Camry has returned to glory with its exciting lineup,
                       improved build quality, and priority on safety.
                     </h6>
-                </div>
-                <div class="mb-2">
+                  </div>
+                  <div class="mb-2">
                     <p class="card-text card-p-style p-2">
                       The Toyota Camry has gone from a fantastic family sedan to
-                      anonymous four-door and now back to its former glory. That's
-                      right. The Toyota is once again a truly desirable option in a
-                      segment that's slumping but still highly competitive. If it
-                      weren't for the 10Best dynasty that is the Honda Accord, the
-                      Camry would be even more desirable. Still, credit its diverse
-                      powertrain platter for its mass appeal. There's a thrifty
-                      four-cylinder, an even more frugal hybrid option, and a strong
-                      V-6. The best way to experience the latter is with the
-                      sport-tuned TRD model, which showcases the Toyota's rediscovered
-                      fun factor. Those who simply prefer a stylish and comfy family
-                      sedan, with driver assists and popular features galore, will
-                      also adore the 2021 Camry.
+                      anonymous four-door and now back to its former glory.
+                      That's right. The Toyota is once again a truly desirable
+                      option in a segment that's slumping but still highly
+                      competitive. If it weren't for the 10Best dynasty that is
+                      the Honda Accord, the Camry would be even more desirable.
+                      Still, credit its diverse powertrain platter for its mass
+                      appeal. There's a thrifty four-cylinder, an even more
+                      frugal hybrid option, and a strong V-6. The best way to
+                      experience the latter is with the sport-tuned TRD model,
+                      which showcases the Toyota's rediscovered fun factor.
+                      Those who simply prefer a stylish and comfy family sedan,
+                      with driver assists and popular features galore, will also
+                      adore the 2021 Camry.
                     </p>
-                </div>
-                <div class="col-12 px-0 pt-3 d-flex align-items-center justify-content-start">
-                  <div class="col-lg-6 col-xl-6 col-md-8 col-sm-8 col-xs-8 pt-3 p-2">
-                    <button
-                      type="button"
-                      class="form-btn-search d-flex align-items-center brdr-none w-100 justify-content-center px-1"
+                  </div>
+                  <div
+                    class="col-12 px-0 pt-3 d-flex align-items-center justify-content-start"
+                  >
+                    <div
+                      class="col-lg-6 col-xl-6 col-md-8 col-sm-8 col-xs-8 pt-3 p-2"
                     >
-                      <span class="clr-white">READ MORE</span>
-                    </button>
-                  </div>
-                  <div class="col-lg-6 col-xl-6 col-md-4 col-sm-4 col-xs-4 pt-3 p-2 text-end d-flex justify-content-end">
-                    <p class="card-p-style mb-0">22 April 2021</p>
+                      <button
+                        type="button"
+                        class="form-btn-search d-flex align-items-center brdr-none w-100 justify-content-center px-1"
+                      >
+                        <span class="clr-white">READ MORE</span>
+                      </button>
+                    </div>
+                    <div
+                      class="col-lg-6 col-xl-6 col-md-4 col-sm-4 col-xs-4 pt-3 p-2 text-end d-flex justify-content-end"
+                    >
+                      <p class="card-p-style mb-0">22 April 2021</p>
+                    </div>
                   </div>
                 </div>
-                
               </div>
             </div>
-          </div>
-      
-          <!-- Card 2 (Duplicate the card block) -->
-          <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
-            <div class="card card-background">
-              <img
-                class="card-img-top p-1"
-                src="./../assets/Cars/Car2.png"
-                alt="Card image cap"
-              />
-              <div class="card-body p-0">
-                <div class="text-center mb-2">
-                    <h5 class="card-title card-heading-style p-2" style="background-color: white">
+
+            <!-- Card 2 (Duplicate the card block) -->
+            <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+              <div class="card card-background">
+                <img
+                  class="card-img-top p-1"
+                  src="./../assets/Cars/Car2.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body p-0">
+                  <div class="text-center mb-2">
+                    <h5
+                      class="card-title card-heading-style p-2"
+                      style="background-color: white"
+                    >
                       TOYOTA CAMRY 2021
                     </h5>
-                </div>
-                <div class="mb-2">
-                    <h6 class="card-subtitle mb-2 text-muted card-subhead-style p-2">
+                  </div>
+                  <div class="mb-2">
+                    <h6
+                      class="card-subtitle mb-2 text-muted card-subhead-style p-2"
+                    >
                       The Camry has returned to glory with its exciting lineup,
                       improved build quality, and priority on safety.
                     </h6>
-                </div>
-                <div class="mb-2">
+                  </div>
+                  <div class="mb-2">
                     <p class="card-text card-p-style p-2">
                       The Toyota Camry has gone from a fantastic family sedan to
-                      anonymous four-door and now back to its former glory. That's
-                      right. The Toyota is once again a truly desirable option in a
-                      segment that's slumping but still highly competitive. If it
-                      weren't for the 10Best dynasty that is the Honda Accord, the
-                      Camry would be even more desirable. Still, credit its diverse
-                      powertrain platter for its mass appeal. There's a thrifty
-                      four-cylinder, an even more frugal hybrid option, and a strong
-                      V-6. The best way to experience the latter is with the
-                      sport-tuned TRD model, which showcases the Toyota's rediscovered
-                      fun factor. Those who simply prefer a stylish and comfy family
-                      sedan, with driver assists and popular features galore, will
-                      also adore the 2021 Camry.
+                      anonymous four-door and now back to its former glory.
+                      That's right. The Toyota is once again a truly desirable
+                      option in a segment that's slumping but still highly
+                      competitive. If it weren't for the 10Best dynasty that is
+                      the Honda Accord, the Camry would be even more desirable.
+                      Still, credit its diverse powertrain platter for its mass
+                      appeal. There's a thrifty four-cylinder, an even more
+                      frugal hybrid option, and a strong V-6. The best way to
+                      experience the latter is with the sport-tuned TRD model,
+                      which showcases the Toyota's rediscovered fun factor.
+                      Those who simply prefer a stylish and comfy family sedan,
+                      with driver assists and popular features galore, will also
+                      adore the 2021 Camry.
                     </p>
-                </div>
-                <div class="col-12 px-0 pt-3 d-flex align-items-center justify-content-start">
-                  <div class="col-lg-6 col-xl-6 col-md-8 col-sm-8 col-xs-8 pt-3 p-2">
-                    <button
-                      type="button"
-                      class="form-btn-search d-flex align-items-center brdr-none w-100 justify-content-center px-1"
+                  </div>
+                  <div
+                    class="col-12 px-0 pt-3 d-flex align-items-center justify-content-start"
+                  >
+                    <div
+                      class="col-lg-6 col-xl-6 col-md-8 col-sm-8 col-xs-8 pt-3 p-2"
                     >
-                      <span class="clr-white">READ MORE</span>
-                    </button>
-                  </div>
-                  <div class="col-lg-6 col-xl-6 col-md-4 col-sm-4 col-xs-4 pt-3 p-2 text-end d-flex justify-content-end">
-                    <p class="card-p-style mb-0">22 April 2021</p>
+                      <button
+                        type="button"
+                        class="form-btn-search d-flex align-items-center brdr-none w-100 justify-content-center px-1"
+                      >
+                        <span class="clr-white">READ MORE</span>
+                      </button>
+                    </div>
+                    <div
+                      class="col-lg-6 col-xl-6 col-md-4 col-sm-4 col-xs-4 pt-3 p-2 text-end d-flex justify-content-end"
+                    >
+                      <p class="card-p-style mb-0">22 April 2021</p>
+                    </div>
                   </div>
                 </div>
-                
               </div>
             </div>
-          </div>
-        
-      
-          <!-- Card 3 (Duplicate the card block) -->
-          <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
-            <div class="card card-background">
-              <img
-                class="card-img-top p-1"
-                src="./../assets/Cars/Car3.png"
-                alt="Card image cap"
-              />
-              <div class="card-body p-0">
-                <div class="text-center mb-2">
-                    <h5 class="card-title card-heading-style p-2" style="background-color: white">
+
+            <!-- Card 3 (Duplicate the card block) -->
+            <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+              <div class="card card-background">
+                <img
+                  class="card-img-top p-1"
+                  src="./../assets/Cars/Car3.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body p-0">
+                  <div class="text-center mb-2">
+                    <h5
+                      class="card-title card-heading-style p-2"
+                      style="background-color: white"
+                    >
                       TOYOTA CAMRY 2021
                     </h5>
-                </div>
-                <div class="mb-2">
-                    <h6 class="card-subtitle mb-2 text-muted card-subhead-style p-2">
+                  </div>
+                  <div class="mb-2">
+                    <h6
+                      class="card-subtitle mb-2 text-muted card-subhead-style p-2"
+                    >
                       The Camry has returned to glory with its exciting lineup,
                       improved build quality, and priority on safety.
                     </h6>
-                </div>
-                <div class="mb-2">
+                  </div>
+                  <div class="mb-2">
                     <p class="card-text card-p-style p-2">
                       The Toyota Camry has gone from a fantastic family sedan to
-                      anonymous four-door and now back to its former glory. That's
-                      right. The Toyota is once again a truly desirable option in a
-                      segment that's slumping but still highly competitive. If it
-                      weren't for the 10Best dynasty that is the Honda Accord, the
-                      Camry would be even more desirable. Still, credit its diverse
-                      powertrain platter for its mass appeal. There's a thrifty
-                      four-cylinder, an even more frugal hybrid option, and a strong
-                      V-6. The best way to experience the latter is with the
-                      sport-tuned TRD model, which showcases the Toyota's rediscovered
-                      fun factor. Those who simply prefer a stylish and comfy family
-                      sedan, with driver assists and popular features galore, will
-                      also adore the 2021 Camry.
+                      anonymous four-door and now back to its former glory.
+                      That's right. The Toyota is once again a truly desirable
+                      option in a segment that's slumping but still highly
+                      competitive. If it weren't for the 10Best dynasty that is
+                      the Honda Accord, the Camry would be even more desirable.
+                      Still, credit its diverse powertrain platter for its mass
+                      appeal. There's a thrifty four-cylinder, an even more
+                      frugal hybrid option, and a strong V-6. The best way to
+                      experience the latter is with the sport-tuned TRD model,
+                      which showcases the Toyota's rediscovered fun factor.
+                      Those who simply prefer a stylish and comfy family sedan,
+                      with driver assists and popular features galore, will also
+                      adore the 2021 Camry.
                     </p>
-                </div>
-                <div class="col-12 px-0 pt-3 d-flex align-items-center justify-content-start">
-                  <div class="col-lg-6 col-xl-6 col-md-8 col-sm-8 col-xs-8 pt-3 p-2">
-                    <button
-                      type="button"
-                      class="form-btn-search d-flex align-items-center brdr-none w-100 justify-content-center px-1"
+                  </div>
+                  <div
+                    class="col-12 px-0 pt-3 d-flex align-items-center justify-content-start"
+                  >
+                    <div
+                      class="col-lg-6 col-xl-6 col-md-8 col-sm-8 col-xs-8 pt-3 p-2"
                     >
-                      <span class="clr-white">READ MORE</span>
-                    </button>
-                  </div>
-                  <div class="col-lg-6 col-xl-6 col-md-4 col-sm-4 col-xs-4 pt-3 p-2 text-end d-flex justify-content-end">
-                    <p class="card-p-style mb-0">22 April 2021</p>
+                      <button
+                        type="button"
+                        class="form-btn-search d-flex align-items-center brdr-none w-100 justify-content-center px-1"
+                      >
+                        <span class="clr-white">READ MORE</span>
+                      </button>
+                    </div>
+                    <div
+                      class="col-lg-6 col-xl-6 col-md-4 col-sm-4 col-xs-4 pt-3 p-2 text-end d-flex justify-content-end"
+                    >
+                      <p class="card-p-style mb-0">22 April 2021</p>
+                    </div>
                   </div>
                 </div>
-                
               </div>
             </div>
-          </div>
-          <!-- Card 4 -->
-          <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
-            <div class="card card-background">
-              <img
-                class="card-img-top p-1"
-                src="./../assets/Cars/Car4.png"
-                alt="Card image cap"
-              />
-              <div class="card-body p-0">
-                <div class="text-center mb-2">
-                    <h5 class="card-title card-heading-style p-2" style="background-color: white">
+            <!-- Card 4 -->
+            <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+              <div class="card card-background">
+                <img
+                  class="card-img-top p-1"
+                  src="./../assets/Cars/Car4.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body p-0">
+                  <div class="text-center mb-2">
+                    <h5
+                      class="card-title card-heading-style p-2"
+                      style="background-color: white"
+                    >
                       TOYOTA CAMRY 2021
                     </h5>
-                </div>
-                <div class="mb-2">
-                    <h6 class="card-subtitle mb-2 text-muted card-subhead-style p-2">
+                  </div>
+                  <div class="mb-2">
+                    <h6
+                      class="card-subtitle mb-2 text-muted card-subhead-style p-2"
+                    >
                       The Camry has returned to glory with its exciting lineup,
                       improved build quality, and priority on safety.
                     </h6>
-                </div>
-                <div class="mb-2">
+                  </div>
+                  <div class="mb-2">
                     <p class="card-text card-p-style p-2">
                       The Toyota Camry has gone from a fantastic family sedan to
-                      anonymous four-door and now back to its former glory. That's
-                      right. The Toyota is once again a truly desirable option in a
-                      segment that's slumping but still highly competitive. If it
-                      weren't for the 10Best dynasty that is the Honda Accord, the
-                      Camry would be even more desirable. Still, credit its diverse
-                      powertrain platter for its mass appeal. There's a thrifty
-                      four-cylinder, an even more frugal hybrid option, and a strong
-                      V-6. The best way to experience the latter is with the
-                      sport-tuned TRD model, which showcases the Toyota's rediscovered
-                      fun factor. Those who simply prefer a stylish and comfy family
-                      sedan, with driver assists and popular features galore, will
-                      also adore the 2021 Camry.
+                      anonymous four-door and now back to its former glory.
+                      That's right. The Toyota is once again a truly desirable
+                      option in a segment that's slumping but still highly
+                      competitive. If it weren't for the 10Best dynasty that is
+                      the Honda Accord, the Camry would be even more desirable.
+                      Still, credit its diverse powertrain platter for its mass
+                      appeal. There's a thrifty four-cylinder, an even more
+                      frugal hybrid option, and a strong V-6. The best way to
+                      experience the latter is with the sport-tuned TRD model,
+                      which showcases the Toyota's rediscovered fun factor.
+                      Those who simply prefer a stylish and comfy family sedan,
+                      with driver assists and popular features galore, will also
+                      adore the 2021 Camry.
                     </p>
-                </div>
-                <div class="col-12 px-0 pt-3 d-flex align-items-center justify-content-start">
-                  <div class="col-lg-6 col-xl-6 col-md-8 col-sm-8 col-xs-8 pt-3 p-2">
-                    <button
-                      type="button"
-                      class="form-btn-search d-flex align-items-center brdr-none w-100 justify-content-center px-1"
+                  </div>
+                  <div
+                    class="col-12 px-0 pt-3 d-flex align-items-center justify-content-start"
+                  >
+                    <div
+                      class="col-lg-6 col-xl-6 col-md-8 col-sm-8 col-xs-8 pt-3 p-2"
                     >
-                      <span class="clr-white">READ MORE</span>
-                    </button>
-                  </div>
-                  <div class="col-lg-6 col-xl-6 col-md-4 col-sm-4 col-xs-4 pt-3 p-2 text-end d-flex justify-content-end">
-                    <p class="card-p-style mb-0">22 April 2021</p>
+                      <button
+                        type="button"
+                        class="form-btn-search d-flex align-items-center brdr-none w-100 justify-content-center px-1"
+                      >
+                        <span class="clr-white">READ MORE</span>
+                      </button>
+                    </div>
+                    <div
+                      class="col-lg-6 col-xl-6 col-md-4 col-sm-4 col-xs-4 pt-3 p-2 text-end d-flex justify-content-end"
+                    >
+                      <p class="card-p-style mb-0">22 April 2021</p>
+                    </div>
                   </div>
                 </div>
-                
               </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
@@ -1041,13 +1115,19 @@
               </a>
             </li>
             <li class="page-item pl-20">
-              <a class="page-link brdr-hidden clr-black back-clr-grey" href="#">1</a>
+              <a class="page-link brdr-hidden clr-black back-clr-grey" href="#"
+                >1</a
+              >
             </li>
             <li class="page-item pl-20">
-              <a class="page-link brdr-hidden clr-black back-clr-grey" href="#">2</a>
+              <a class="page-link brdr-hidden clr-black back-clr-grey" href="#"
+                >2</a
+              >
             </li>
             <li class="page-item pl-20">
-              <a class="page-link brdr-hidden clr-black back-clr-grey" href="#">3</a>
+              <a class="page-link brdr-hidden clr-black back-clr-grey" href="#"
+                >3</a
+              >
             </li>
             <li class="page-item pl-20">
               <a
@@ -1119,7 +1199,9 @@
               <a href="" class="me-4 text-reset">
                 <h6 class="text-uppercase fw-bold mt-4 font-size-12">
                   QUESTIONS?
-                  <i class="underline-text" style="color: #6C46B9">SUPPORT@GOODAUTODEALS.COM</i>
+                  <i class="underline-text" style="color: #6c46b9"
+                    >SUPPORT@GOODAUTODEALS.COM</i
+                  >
                 </h6>
               </a>
             </div>
@@ -1140,20 +1222,20 @@
               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <!-- Links -->
                 <a href="#">
-                <h6 class="text-uppercase fw-bold mb-4 font-size-14">
-                  NEW CARS
-                </h6>
-              </a>
-              <a href="#">
-                <h6 class="text-uppercase fw-bold mb-4 font-size-14">
-                  USED CARS
-                </h6>
-              </a>
-              <a href="#">
-                <h6 class="text-uppercase fw-bold mb-4 font-size-14">
-                  SELL MY CAR
-                </h6>
-              </a>
+                  <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                    NEW CARS
+                  </h6>
+                </a>
+                <a href="UsedCars.html">
+                  <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                    USED CARS
+                  </h6>
+                </a>
+                <a href="SellCar.html">
+                  <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                    SELL MY CAR
+                  </h6>
+                </a>
               </div>
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <a href="CarEvaluation.html">
@@ -1162,32 +1244,32 @@
                   </h6>
                 </a>
                 <a href="CarInsurance.html">
-                <h6 class="text-uppercase fw-bold mb-4 font-size-14">
-                  CAR INSURANCE
-                </h6>
-              </a>
-              <a href="CarFinance.html">
-                <h6 class="text-uppercase fw-bold mb-4 font-size-14">
-                  CAR FINANCE
-                </h6>
-              </a>
+                  <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                    CAR INSURANCE
+                  </h6>
+                </a>
+                <a href="CarFinance.html">
+                  <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                    CAR FINANCE
+                  </h6>
+                </a>
               </div>
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <a href="#">
-                <h6 class="text-uppercase fw-bold mb-4 font-size-14">
-                  SEARCH DEALERS
-                </h6>
-              </a>
-              <a href="#">
-                <h6 class="text-uppercase fw-bold mb-4 font-size-14">
-                  BECOME A DEALER
-                </h6>
-              </a>
-              <a href="#">
-                <h6 class="text-uppercase fw-bold mb-4 font-size-14">
-                  ADVERTISE PACKAGES
-                </h6>
-              </a>
+                <a href="Dealers.html">
+                  <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                    SEARCH DEALERS
+                  </h6>
+                </a>
+                <a href="Login.html">
+                  <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                    BECOME A DEALER
+                  </h6>
+                </a>
+                <a href="#">
+                  <h6 class="text-uppercase fw-bold mb-4 font-size-14">
+                    ADVERTISE PACKAGES
+                  </h6>
+                </a>
               </div>
 
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 w-auto">
@@ -1204,13 +1286,15 @@
                 </div>
               </div>
 
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 pr-0 pl-4 d-flex justify-content-center">
-                <div class="col-8 ">
-                <img
-                  src="./../assets/App-Store-and-Google-Play-badges.png"
-                  class="w-100"
-                />
-              </div>
+              <div
+                class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 pr-0 pl-4 d-flex justify-content-center"
+              >
+                <div class="col-8">
+                  <img
+                    src="./../assets/App-Store-and-Google-Play-badges.png"
+                    class="w-100"
+                  />
+                </div>
               </div>
             </div>
             <!-- Grid row -->
@@ -1233,6 +1317,5 @@
       </footer>
       <!-- Footer -->
     </div>
-  </div>
   </body>
 </html>

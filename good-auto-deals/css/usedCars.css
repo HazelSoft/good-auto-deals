@@ -1,0 +1,292 @@
+.used-cars-form{
+    top: 30px;
+    left: 30px;
+    border-radius: 1rem;
+    background-color: white; 
+}
+
+.used-cars-form .form-control {
+    background-color: #ced4da !important;
+    font-style: italic; 
+}
+
+.used-cars-form a {
+    color: #FFA715;
+    font-size: 14px;
+}
+
+.form-heading{
+    color: #016876 !important;
+    text-decoration: underline;
+}
+
+.car-icon{
+    position: absolute;
+    right: 0;
+}
+
+.form-background{
+    min-height: 35vh;
+    object-fit: cover;
+}
+
+.back-clr-orange{
+    background-color: #FFA715;
+}
+
+.find-more-btn {
+    cursor: pointer;
+    border-radius: 15px;
+    height: 2.5rem !important;
+    border-color: #28a7b8;
+    background-color: #28a7b8;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.find-more-btn:active,
+.find-more-btn:focus {
+    outline: none;
+    border-color: #28a7b8 !important;
+    background-color: #28a7b8 !important;
+}
+
+/*  Carousal on large screens for medium and small screen*/
+#carLogoCarousel {
+    max-width: 100%;
+  }
+  
+  #carLogoCarousel img {
+    max-width: 100%;
+    margin: auto; /* Center the image within the carousel item */
+    border-radius: 5px; 
+    max-height: 6rem !important;
+  }
+  
+  #carLogoCarousel p {
+    text-align: center; 
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    /* Change the background color of the arrows */
+    background-color: white; 
+  }
+  
+  .carousel-control-next-icon::before {
+    color: #707070 !important;
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%; 
+  }
+
+  .carousel-left{
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .carousel-right{
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  /* Carousal on large screens*/
+  .carousel-container {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 100%;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+}
+
+.carousel-container img {
+    max-width: 100%;
+    object-fit: contain;
+    width: 17rem !important;
+    height: 6rem !important;
+    max-height: 6rem !important;
+}
+
+.carousel-arrows {
+    margin: auto 0;
+    font-size: 2rem;
+}
+
+.carousel-arrows span {
+    cursor: pointer;
+    padding: 0 10px;
+    position: absolute;
+    font-size: 15px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.left-right-border {
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+}
+
+.underline-orange{
+    border-bottom: 1px solid orange;
+    display: inline; 
+}
+
+.underline-orange:hover {
+    color: inherit !important;
+    background-color: inherit !important;
+    outline: none !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid orange;
+}
+
+.text-blue{
+    color: #324389;
+}
+
+.back-clr-theme{
+    background-color:  #28A7B8 !important;
+}
+
+.circle {
+    border-radius: 50%;
+    border:1px dashed #f8f9fa;
+    padding: 20px;
+    margin: 20px 0;
+    width: 10rem;
+    height: 10rem;
+}
+
+.circle img {
+    max-width: 100px;
+    border-radius: 50%;
+    width: 2rem;
+}
+
+.circle h4, .circle p {
+    margin: 10px 0;
+}
+
+.font-size-h6{
+    font-size: 0.75rem !important;
+}
+
+.background-image {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    transform: translateX(-50%);
+    z-index: 6;
+    max-width: 100%;
+    height: auto;
+}
+
+.review-btn {
+    cursor: pointer;
+    color: #FFA000;
+    border-radius: 15px;
+    height: 2.5rem !important;
+    border: hidden !important;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.review-btn:active,
+.review-btn:focus {
+    outline: none;
+    border-color: white;
+    background-color: white;
+}
+
+.mt-5{
+    margin-top: 5rem !important;
+}
+
+.add-translate{
+    transform: translateX(-30%);
+}
+
+.p-6{
+    padding: 6rem !important;
+}
+
+.w-4{
+    width: 4rem;
+}
+
+.custom-card-back{
+    background-color: #F6F6F6 !important;
+    border: hidden !important;
+}
+
+.questions{
+    font-size: clamp(23px, 2.5vw, 35px) !important;
+    color:  #28A7B8 !important;
+}
+
+.back-car-image{
+    background-image: url('./../assets/usedCars/Image13.png');
+    background-size: cover;
+    height: 550px;
+}
+
+.find-yours-btn {
+    cursor: pointer;
+    color: #28A7B8;
+    border-radius: 15px;
+    height: 2.5rem !important;
+    border: hidden !important;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+.find-yours-btn:active,
+.find-yours-btn:focus {
+    outline: none;
+    border-color: white;
+    background-color: white;
+}
+
+.subscribe-btn {
+    cursor: pointer;
+    color: white;
+    border: hidden !important;
+    background-color: #F1BB37;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.subscribe-btn:active,
+.subscribe-btn:focus {
+    outline: none;
+    border-color: #F1BB37;
+    background-color: #F1BB37;
+}
+
+.news-letter-box{
+    padding: 4rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.newsletter-form .form-control {
+    background-color: transparent;
+}
+
+.newsletter-form .form-control::placeholder {
+    font-style: italic; 
+}

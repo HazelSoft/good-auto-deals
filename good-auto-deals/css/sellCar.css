@@ -1,0 +1,61 @@
+.img-text{
+    font-size: clamp(14px, 3vw, 32px) !important;
+}
+
+.text-dark-blue{
+    color: #002B50 !important;
+}
+
+.tip-heading {
+    font-size: 20px;
+    color: #666666;
+}
+
+.tip-subheading {
+    color: #324389;
+    text-decoration: underline;
+}
+
+.tip-content {
+    font-size: 20px;
+    color: #324389;
+}
+
+.tip-content strong {
+    color: #324389;
+}
+
+.tip-content span {
+    color: #777777;
+}
+
+.car-position{
+    width: 130%;
+    position: absolute;
+    bottom: -80px;
+    z-index: 10;
+}
+
+.no-shadow {
+    box-shadow: none !important;
+  }
+  
+.custom-text-shadow{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.mb-n4{
+    margin-bottom: -2rem;
+}
+
+.mr-50{
+    margin-right: 50% !important;
+}
+
+.mr-30{
+    margin-right: 30% !important;
+}
+
+.h-30{
+    height: 30rem !important;
+}
