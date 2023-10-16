@@ -1,6 +1,6 @@
 .search-dealer-form{
     border: 1px solid #666666;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 
 .search-form .form-control::placeholder {
