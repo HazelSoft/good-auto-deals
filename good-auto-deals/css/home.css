@@ -71,6 +71,7 @@
     border-left-style: none !important;
     border-right-style: none !important;
     outline: none !important;
+    border-bottom: 1px solid grey !important;
 }
 
 .ptb-10{
