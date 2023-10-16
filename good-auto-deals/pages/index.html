@@ -39,7 +39,8 @@
     ></script>
     <nav class="navbar navbar-display navbar-expand-xl navbar-light bg-light">
       <a class="navbar-brand" href="#">
-        <img src="./../assets/GAD-Logo-Without-Shadow.png" />
+        <img src="./../assets/GAD-Logo-Without-Shadow.png" 
+        onclick="window.location.href = 'index.html';"/>
       </a>
       <button
         class="navbar-toggler"
@@ -59,9 +60,7 @@
 
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html"
-              >HOME</a
-            >
+            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="UsedCars.html">USED CARS</a>
@@ -88,7 +87,7 @@
                   width="16.384"
                   height="16.384"
                   viewBox="0 0 16.384 16.384"
-                  style="width: 16px; height: 16px;"
+                  style="width: 16px; height: 16px"
                 >
                   <g
                     id="user_19_"
@@ -126,11 +125,11 @@
       </div>
     </nav>
     <nav
-      class="navbar navbar-expand-lg navbar-light d-none justify-content-end d-md-none d-sm-none d-lg-flex d-xl-flex d-xs-none"
+      class="navbar navbar-expand-lg navbar-light d-none d-sm-none justify-content-end d-md-flex"
     >
       <div style="height: auto">
         <ul class="navbar-nav mr-auto"></ul>
-        <ul class="navbar-nav">
+        <ul class="navbar-nav flex-row">
           <li class="nav-item">
             <a class="nav-link" href="CarInsurance.html">CAR INSURANCE</a>
           </li>
@@ -150,35 +149,62 @@
       </div>
     </nav>
     <nav
-      class="navbar navbar-expand-lg navbar-light d-flex justify-content-start d-md-flex d-sm-flex d-lg-none d-xl-none d-xs-flex"
+      class="navbar navbar-expand-lg navbar-light d-flex justify-content-start d-md-none d-lg-none d-xl-none"
     >
-      <div style="height: auto" class="col-12 px-0">
-        <ul class="navbar-nav mr-auto"></ul>
-        <ul class="navbar-nav col-12 px-0">
-          <div class="row">
-            <li class="nav-item col-6 px-0">
-              <a class="nav-link" href="CarInsurance.html">CAR INSURANCE</a>
-            </li>
-            <li class="nav-item col-6 px-0">
-              <a class="nav-link" href="CarFinance.html">CAR FINANCE</a>
-            </li>
-          </div>
-          <div class="row">
-            <li class="nav-item col-6 px-0">
-              <a class="nav-link" href="CarEvaluation.html">CAR EVALUATION</a>
-            </li>
-            <li class="nav-item col-6 px-0">
-              <a class="nav-link" href="#">BLOGS</a>
-            </li>
-          </div>
-          <div class="row">
-            <li class="nav-item col-6 px-0">
-              <a class="nav-link" href="Dealers.html">DEALERS</a>
-            </li>
-          </div>
+      <button
+        class="navbar-toggler mb-4"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="CarInsurance.html"
+              style="margin-left: 0 !important"
+              >CAR INSURANCE</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="CarFinance.html"
+              style="margin-left: 0 !important"
+              >CAR FINANCE</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="CarEvaluation.html"
+              style="margin-left: 0 !important"
+              >CAR EVALUATION</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="margin-left: 0 !important"
+              >BLOGS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="Dealers.html"
+              style="margin-left: 0 !important"
+              >DEALERS</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
+
     <div style="background-color: #eeeeee">
       <div class="col-12 d-flex justify-content-center">
         <img src="./../assets/Mask Group 2.png" class="w-100" />
@@ -190,7 +216,7 @@
             <select
               id="dropdown1"
               name="dropdown1"
-              class="w-100 field-border ptb-10"
+              class="w-100 field-border ptb-10 mb-1"
             >
               <option value="" disabled selected>Make</option>
               <option value="option1">Make 1</option>
@@ -203,7 +229,7 @@
             <select
               id="dropdown2"
               name="dropdown2"
-              class="w-100 field-border ptb-10"
+              class="w-100 field-border ptb-10 mb-1"
             >
               <option value="" disabled selected>Model</option>
               <option value="option1">Model 1</option>
@@ -215,7 +241,7 @@
             <select
               id="dropdown3"
               name="dropdown3"
-              class="w-100 field-border ptb-10"
+              class="w-100 field-border ptb-10 mb-1"
             >
               <option value="" disabled selected>City</option>
               <option value="option1">Toronto</option>
@@ -278,7 +304,7 @@
                     width="15.424"
                     height="15.423"
                     viewBox="0 0 15.424 15.423"
-                    style="width: 16px; height: 16px;"
+                    style="width: 16px; height: 16px"
                   >
                     <path
                       id="Path_18908"
@@ -815,7 +841,7 @@
             width="462"
             height="43"
             viewBox="0 0 462 43"
-            style="width: 462px; height: 43px;"
+            style="width: 462px; height: 43px"
           >
             <text
               id="News_Reviews_Discussions"
@@ -1218,8 +1244,10 @@
             <!-- Grid row -->
             <div class="row mt-3">
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <img src="./../assets/GAD-Logo-Without-Shadow.png"
-                onclick="window.location.href = 'index.html';"  />
+                <img
+                  src="./../assets/GAD-Logo-Without-Shadow.png"
+                  onclick="window.location.href = 'index.html';"
+                />
               </div>
               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <!-- Links -->
